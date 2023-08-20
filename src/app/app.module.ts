@@ -17,9 +17,10 @@ import { NgSwitchComponent } from './ng-switch/ng-switch.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { SquarePipe } from './square.pipe';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
-  declarations: [AppComponent,  HeaderComponent, FooterComponent, InterpolationComponent, PropertyBindingComponent, ClassBindingComponent, StyleBindingComponent, EventBindingComponent, TwoWayBindingComponent, NgIFComponent, NgSwitchComponent, NgForComponent, PipesComponent, SquarePipe,],
+  declarations: [AppComponent,  HeaderComponent, FooterComponent, InterpolationComponent, PropertyBindingComponent, ClassBindingComponent, StyleBindingComponent, EventBindingComponent, TwoWayBindingComponent, NgIFComponent, NgSwitchComponent, NgForComponent, PipesComponent, SquarePipe, ProductsComponent,],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
